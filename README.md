@@ -2,7 +2,7 @@
 __A Free and Open Source Agnostic Game Panel__
 
 
-Main repository link: https://github.com/ccarney16/pterodactyl-daemon-dockerfile
+Main repository link: https://github.com/ccarney16/pterodactyl-panel-dockerfile
 
 ### Usage ###
 
