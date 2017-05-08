@@ -14,9 +14,10 @@ Refer to the main repository link for all information regarding running the pter
 
 ### Recommended Mounts ###
 
-* _/srv/daemon/config_: Main configuration directory for the daemon.
-* _/srv/daemon/packs_: For server packs.
-* _/srv/daemon/scripts_: For startup scripts.
-* _/srv/daemon-data_: Server Data.
+* _/srv/daemon/config/_: Main configuration directory for the daemon.
+* _/srv/daemon/packs/_: For server packs.
+* _/srv/daemon/scripts/_: For startup scripts.
+* _/srv/daemon-data/_: Server Data.
+* _/tmp/pterodactyl/_: 
 
 All mounts are recommended to be mirrored exactly. 
