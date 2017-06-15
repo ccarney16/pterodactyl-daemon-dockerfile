@@ -2,7 +2,7 @@ FROM node:6.10.3-alpine
 
 MAINTAINER Cameron Carney <ccarney16@live.com>
 
-ENV DAEMON_VERSION=v0.4.1
+ENV DAEMON_VERSION=v0.4.2
 
 WORKDIR /srv/daemon
 
