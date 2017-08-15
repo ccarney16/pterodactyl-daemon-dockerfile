@@ -1,11 +1,20 @@
-FROM node:6.10.3-alpine
+FROM node:8.3.0-alpine
 
 MAINTAINER Cameron Carney <ccarney16@live.com>
 
-ENV DAEMON_VERSION=v0.4.2
+ENV DAEMON_VERSION=v0.4.4
 
 WORKDIR /srv/daemon
 
+# Sadly everything has to be in one line to ensure that the image stays small...
+##
+# Put it as this:
+# update alpine repos and install the required building tools
+# Download Daemon
+# Install the Daemon's dependencies
+# Delete the build tools (gcc, python, etc)
+# Purge Cache
+##
 RUN \
  apk update \
  && apk add coreutils curl openssl make gcc g++ python gnupg tar \
