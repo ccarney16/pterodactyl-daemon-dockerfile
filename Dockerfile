@@ -2,7 +2,7 @@ FROM node:8.4-alpine
 
 MAINTAINER Cameron Carney <ccarney16@live.com>
 
-ENV DAEMON_VERSION=v0.4.5
+ENV DAEMON_VERSION=v0.5.0-beta.1
 
 WORKDIR /srv/daemon
 
