@@ -1,3 +1,5 @@
+<p><b>NOTICE!</b> This repository has been discontinued in favor of my main pterodactyl panel repo: https://github.com/ccarney16/pterodactyl-panel-docker. All updates for the daemon will occur on there.</p>
+
 # Pterodactyl Panel Node Dockerfile #
 __A Free and Open Source Agnostic Game Panel__
 
